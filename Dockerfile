@@ -13,4 +13,4 @@ RUN echo "source /opt/peda/peda.py" >> /etc/gdb/gdbinit
 RUN apt-get remove -y ca-certificates
 RUN apt-get autoremove -y
 RUN apt-get clean
-RUN rm -rf /varlib/apt/lists/*
+RUN rm -rf /var/lib/apt/lists/*
